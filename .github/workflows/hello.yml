@@ -10,7 +10,9 @@ jobs:
     steps:
       - name: Hello world!
         run: echo "hello world!!"
+      - name: step2
         run: uname -a
+      - name: step3
         run: ifconfig
          
 
